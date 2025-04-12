@@ -1,0 +1,257 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nike Store</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="nav__top">
+            <div class="nav__item">
+                <img src="./img/sneakers.png" alt="">
+            </div>
+            <div class="nav__item">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="search__input"></input>
+                    <img src="./img/search.png"  width="20" height="20" class="search__icon">
+                </div>
+            </div>
+            <div class="nav__item">
+                <span class="limited__offer">Limited Offer</span>
+            </div>
+        </div>
+
+        <div class="nav__bottom">
+            <h3 class="menu__item">AIR FORCE</h3>
+            <h3 class="menu__item">JORDAN</h3>
+            <h3 class="menu__item">BLAZER</h3>
+            <h3 class="menu__item">CRATER</h3>
+            <h3 class="menu__item">HIPPIE</h3>
+        </div>
+    </nav>
+
+        <div class="slider">
+            <div class="slider__wrapper">
+                <div class="slider__item">
+                    <img src="./img/air.png" alt="" class="slider__img">
+                    <div class="slider__bg"></div>
+                    <h1 class="slider__title">AIR FORCE<br/>NEW<br/>SEASON</h1>
+                    <h2 class="slider__price">$119</h2>
+                    <a href="#product">
+                        <button class="buy__button">BUY NOW</button>
+                    </a>
+                </div>
+                <div class="slider__item">
+                    <img src="./img/jordan.png" alt="" class="slider__img">
+                    <div class="slider__bg"></div>
+                    <h1 class="slider__title">JORDAN<br/>NEW<br/>SEASON</h1>
+                    <h2 class="slider__price">$119</h2>
+                    <a href="#product">
+                        <button class="buy__button">BUY NOW</button>
+                    </a>   
+                </div>
+                <div class="slider__item">
+                    <img src="./img/blazer.png" alt="" class="slider__img">
+                    <div class="slider__bg"></div>
+                    <h1 class="slider__title">BLAZER<br/>NEW<br/>SEASON</h1>
+                    <h2 class="slider__price">$119</h2>
+                    <a href="#product">
+                        <button class="buy__button">BUY NOW</button>
+                    </a>    
+                </div>
+                <div class="slider__item">
+                    <img src="./img/crater.png" alt="" class="slider__img">
+                    <div class="slider__bg"></div>
+                    <h1 class="slider__title">CRATER<br/>NEW<br/>SEASON</h1>
+                    <h2 class="slider__price">$119</h2>
+                    <a href="#product">
+                        <button class="buy__button">BUY NOW</button>
+                    </a>    
+                </div>
+                <div class="slider__item">
+                    <img src="./img/hippie.png" alt="" class="slider__img">
+                    <div class="slider__bg"></div>
+                    <h1 class="slider__title">HIPPIE<br/>NEW<br/>SEASON</h1>
+                    <h2 class="slider__price">$119</h2>
+                    <a href="#product">
+                        <button class="buy__button">BUY NOW</button>
+                    </a>    
+                </div>
+            </div>
+        </div>    
+
+        <div class="features">
+            <div class="feature">
+                <img src="./img/shipping.png" alt="" class="feature__icon">
+                <span class="feature__title">FREE SHIPPING</span>
+                <span class="feature__desc">Free worldwide shipping on all orders.</span>
+            </div>
+            <div class="feature">
+                <img class="feature__icon" src="/img/return.png" alt="">
+                <span class="feature__title">30 DAYS RETURN</span>
+                <span class="feature__desc">No questions asked. Free return and easy refund in 14 days</span>
+            </div>
+            <div class="feature">
+                <img class="feature__icon" src="/img/gift.png" alt="">
+                <span class="feature__title">GIFT CARDS</span>
+                <span class="feature__desc">Buy gift cards and use coupon codes easily.</span>
+            </div>
+            <div class="feature">
+                <img class="feature__icon" src="/img/contact.png" alt="">
+                <span class="feature__title">CONTACT US</span>
+                <span class="feature__desc">Keep in touch via email and support system.</span>
+            </div>
+        </div>
+
+        <div class="product" id="product">
+            <img src="./img/air.png" alt="" class="product__img">
+            <div class="product__details">
+                <h1 class="product__title">AIR FORCE</h1>
+                <h2 class="product__price">$199</h2>
+                <p class="product__desc">
+                    The Nike Air Force sneakers blend classic style with modern flair, featuring a sleek, low-cut silhouette that pays homage to its basketball roots. 
+                    Crafted with premium leather and designed with Nike’s signature Air cushioning, they offer unparalleled comfort and durability for everyday wear. 
+                    These iconic sneakers are a staple in any collection, embodying the perfect balance of sporty elegance and urban sophistication.
+                </p>
+                <div class="colors">
+                    <div class="color"></div> 
+                    <div class="color"></div> 
+                </div>
+                <div class="sizes">
+                    <div class="size">42</div>
+                    <div class="size">43</div>
+                    <div class="size">44</div>
+                </div>
+                <button class="product__button">BUY NOW</button>
+            </div>
+
+            <div class="payment">
+                <h1 class="pay__title">Personal Information</h1>
+                <label>Name and Surname</label>
+                <input type="text" placeholder="John Doe" class="pay__input">
+                <label>Phone Number</label>
+                <input type="text" placeholder="+64 098 0987" class="pay__input">
+                <label>Address</label>
+                <input type="text" placeholder="John Doe" class="pay__input">
+                <label>Name and Surname</label>
+                <input type="text" placeholder="1 Beach St 1678" class="pay__input">
+                <h1 class="pay__title">Card Information</h1>
+                <div class="card__icons">
+                    <img src="./img/visa.png" width="40" class="card__icon">
+                    <img src="./img/master.png" width="40" class="card__icon">
+                </div>
+                <input type="password" class="pay__input" placeholder="Card Number">
+                <div class="card__info">
+                    <input type="text" placeholder="mm" class="pay__input sm">
+                    <input type="text" placeholder="yyyy" class="pay__input sm">
+                    <input type="text" placeholder="cvv" class="pay__input sm">
+                </div>
+                <button class="pay__button">Checkout</button>
+                <span class="close">X</span>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery__item">
+                <h1 class="gallery__title">Be Yourself</h1>
+                <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+                <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="gallery__img">
+                <h1 class="gallery__title">This is the First Day of Your New Life</h1>
+            </div>
+            <div class="gallery__item">
+                <h1 class="gallery__title">Just Do it</h1>
+                <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="gallery__img">
+            </div>
+        </div>
+
+        <div class="new__season">
+            <div class="ns__item">
+                <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="ns__img">
+            </div>
+            <div class="ns__item">
+                <h3 class="ns__title__sm">WINTER NEW ARRIVALS</h3>
+                <h1 class="ns__title">New Season</h1>
+                <h1 class="ns__title">New Collection</h1>
+                <a href="#nav">
+                    <button class="ns__button">CHOOSE YOUR STYLE</button>
+                </a>
+            </div>
+            <div class="ns__item">
+                <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="ns__img">
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer__left">
+                <div class="footer__menu">
+                    <h1 class="fmenu__title">About Us</h1>
+                    <ul class="fmenu__list">
+                        <li class="flist__item">Company</li>
+                        <li class="flist__item">Contact</li>
+                        <li class="flist__item">Careers</li>
+                        <li class="flist__item">Affiliates</li>
+                        <li class="flist__item">Stores</li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h1 class="fmenu__title">Useful Links</h1>
+                    <ul class="fmenu__list">
+                        <li class="flist__item">Support</li>
+                        <li class="flist__item">Refund</li>
+                        <li class="flist__item">FAQ</li>
+                        <li class="flist__item">Feedback</li>
+                        <li class="flist__item">Stories</li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h1 class="fmenu__title">Products</h1>
+                    <ul class="fmenu__list">
+                        <li class="flist__item">Air Force</li>
+                        <li class="flist__item">Air Jordan</li>
+                        <li class="flist__item">Blazer</li>
+                        <li class="flist__item">Crater</li>
+                        <li class="flist__item">Hippie</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__right__menu">
+                    <h1 class="fmenu__title">Subscribe to our newsletter</h1>
+                    <div class="f__mail">
+                        <input type="text" placeholder="your@email.com" class="f__input">
+                        <button class="f__button">Join</button>
+                    </div>
+                </div>
+                <div class="footer__right__menu">
+                    <h1 class="fmenu__title">Follow Us</h1>
+                    <div class="f__icons">
+                        <img src="./img/facebook.png" alt="" class="f__icon">
+                        <img src="./img/twitter.png" alt="" class="f__icon">
+                        <img src="./img/instagram.png" alt="" class="f__icon">
+                        <img src="./img/whatsapp.png" alt="" class="f__icon">
+                    </div>
+                </div>
+
+                <div class="footer__right__menu">
+                    <span class="copyright">@SNAS Dev. All rights reserved. 2024.</span>
+                </div>
+
+            </div>
+        </footer>
+
+
+
+        <script src="./app.js"></script>
+</body>
+</html>
